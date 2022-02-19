@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(33, 33, 78);
+}
+header{
+background:rgb(22, 19, 37);
+padding: 20px;
+}
+
+header > h1 {
+    font-size: 50px;
+    color:rgb(61, 216, 255);
+    text-align: center;
+    font-family: dongle,sans-serif;
+}
+
+.score-board{
+margin: 30px auto;
+text-align: center;
+width: 200px;
+color: rgb(255, 255, 255);
+font-size: 30px;
+padding: 15px 20px;
+font-family: dongle, sans-serif;
+position: relative;
+align-items: center;
+}
+
+.badge{
+    background: rgb(236, 236, 236);
+    font-size: 25px;
+    padding: 2px 30px
+}
+
+#user-label {
+color: black;
+position: absolute;
+top:30px;
+left:-120px;
+}
+
+#computer-label {
+    color: black;
+    position: absolute;
+    top:30px;
+    right:-150px;
+    }
+
+    .result{
+        background-color: rgb(18, 18, 46);
+        margin: 80px;
+        padding: 150px;
+        border-radius: 60px;
+border: 10px solid black;
+        color: aliceblue;
+        text-align: center;
+        font-family: dongle,sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .choices{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    button{
+        border-radius: 12px;
+        color:navy;
+        border: none;
+        text-decoration: none;
+        padding: 5px 10px;
+        background: rgb(67, 202, 255);
+        font-size: 25px;
+        font-family: dongle,sans-serif;
+    }
+
+    #message{
+        text-align: center;
+        padding: 50px;
+        font-size: 40px;
+        font-family: dongle,sans-serif;
+    }
